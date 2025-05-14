@@ -7,6 +7,10 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "myusercenter.client", "myus
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUserCenter.Server", "MyUserCenter.Server\MyUserCenter.Server.csproj", "{D0F9E2D2-8062-47AE-8A5F-EDDC74144451}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUserCenter.Domain", "MyUserCenter.Domain\MyUserCenter.Domain.csproj", "{95258505-9DD8-49C5-AC1D-5569A94F159E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUserCenter.EFCore", "MyUserCenter.EFCore\MyUserCenter.EFCore.csproj", "{9EBCA9C9-FEB7-43A2-969E-A264664ADFC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{D0F9E2D2-8062-47AE-8A5F-EDDC74144451}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0F9E2D2-8062-47AE-8A5F-EDDC74144451}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0F9E2D2-8062-47AE-8A5F-EDDC74144451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95258505-9DD8-49C5-AC1D-5569A94F159E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95258505-9DD8-49C5-AC1D-5569A94F159E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95258505-9DD8-49C5-AC1D-5569A94F159E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95258505-9DD8-49C5-AC1D-5569A94F159E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EBCA9C9-FEB7-43A2-969E-A264664ADFC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EBCA9C9-FEB7-43A2-969E-A264664ADFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EBCA9C9-FEB7-43A2-969E-A264664ADFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EBCA9C9-FEB7-43A2-969E-A264664ADFC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

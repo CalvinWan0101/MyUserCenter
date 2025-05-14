@@ -1,6 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using MyUserCenter.EFCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Database
+builder.Services.AddDbContext<MyUserCenterDbContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("MyUserCenterDbContext"),
+        new MySqlServerVersion(new Version(8, 0, 36))
+    )
+);
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
