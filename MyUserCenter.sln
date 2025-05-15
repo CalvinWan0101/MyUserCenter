@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUserCenter.Domain", "MyUs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUserCenter.EFCore", "MyUserCenter.EFCore\MyUserCenter.EFCore.csproj", "{9EBCA9C9-FEB7-43A2-969E-A264664ADFC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyUserCenter.Service", "MyUserCenter.Service\MyUserCenter.Service.csproj", "{B4499B51-76F5-4DED-932D-2F83EC74FAA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{9EBCA9C9-FEB7-43A2-969E-A264664ADFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EBCA9C9-FEB7-43A2-969E-A264664ADFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EBCA9C9-FEB7-43A2-969E-A264664ADFC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4499B51-76F5-4DED-932D-2F83EC74FAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4499B51-76F5-4DED-932D-2F83EC74FAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4499B51-76F5-4DED-932D-2F83EC74FAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4499B51-76F5-4DED-932D-2F83EC74FAA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.SpaProxy">
       <Version>9.*-*</Version>
@@ -20,6 +21,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0-preview.3.efcore.9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,6 +29,7 @@
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
     </ProjectReference>
     <ProjectReference Include="..\MyUserCenter.EFCore\MyUserCenter.EFCore.csproj" />
+    <ProjectReference Include="..\MyUserCenter.Service\MyUserCenter.Service.csproj" />
   </ItemGroup>
 
 </Project>
