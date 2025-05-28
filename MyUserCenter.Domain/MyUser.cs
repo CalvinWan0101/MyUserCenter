@@ -2,4 +2,6 @@
 
 namespace MyUserCenter.Domain;
 
-public class MyUser : IdentityUser { }
+public class MyUser : IdentityUser {
+    public string? DisplayName { get; set; }
+}

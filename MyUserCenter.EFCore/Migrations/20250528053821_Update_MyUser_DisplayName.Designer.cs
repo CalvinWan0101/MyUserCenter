@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyUserCenter.EFCore;
 
@@ -11,9 +12,11 @@ using MyUserCenter.EFCore;
 namespace MyUserCenter.EFCore.Migrations
 {
     [DbContext(typeof(MyUserCenterDbContext))]
-    partial class MyUserCenterDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250528053821_Update_MyUser_DisplayName")]
+    partial class Update_MyUser_DisplayName
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
